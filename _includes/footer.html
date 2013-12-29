@@ -1,0 +1,20 @@
+		    <h3>Our Meetings</h3>
+		    <p>Below is a list of our planned User Group meetings: -</p>
+		    <ul>
+			{% for post in site.posts  limit:5 %}
+			    <li>
+				{{ post.date | date: "%B %-d, %Y" }} - <a href="{{ post.url }}">{{ post.title }}</a>
+			    </li>
+			{% endfor %}
+		    </ul>
+		</div>
+	    </div>
+	    <footer>
+		<p>&copy; PHP North East</p>
+	    </footer>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
+    </body>
+</html>
