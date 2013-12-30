@@ -19,6 +19,34 @@ body {
     padding: 1.25em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #111;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.25;
+    margin-bottom: 0.5em;
+}
+h1 {
+    font-size: 1.75em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.25em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 {
+    font-size: 0.85em;
+}
+
+
 p {
     margin-bottom: 0.75em;
 }
