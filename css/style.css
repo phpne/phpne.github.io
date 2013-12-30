@@ -1,0 +1,110 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    color: #333;
+    font-family: Georgia, serif;
+    line-height: 1.5;
+    background: #f1f1f1;
+    padding: 1.25em;
+}
+
+p {
+    margin-bottom: 0.75em;
+}
+
+a {
+    color: #9fc355;
+    text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+    color: #ff4b33;
+    text-decoration: none;
+}
+a img {
+    display: block;
+    border: none;
+}
+
+.wrapper {
+    background-color: #fff;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1.25em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.125em 0.25em #b2b2b2;
+}
+
+.primary-navigation {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 81.25%;
+    line-height: 2.76923077;
+    background-color: #9fc355;
+    margin-bottom: 0.769230769em;
+    border-radius: 0.307692308em;
+    overflow: auto;
+}
+.primary-navigation ul {
+    padding-left: 0.75em;
+}
+.primary-navigation li {
+    display: block;
+    float: left;
+}
+.primary-navigation a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0.1em 0.1em rgba(0,0,0,0.25);
+    display: block;
+    padding: 0 0.75em;
+}
+.primary-navigation a:hover,
+.primary-navigation a:active,
+.primary-navigation a:focus {
+    color: #fff;
+    background-color: #333;
+    outline: none;
+}
+
+.site-footer {
+    font-size: 87.5%;
+    border-top: 0.2em solid #9fc355;
+    padding-top: 1.42857143em;
+}
+.site-footer .copyright {
+    color: #666;
+    margin-bottom: 0;
+}
+
+#main {
+    overflow: auto;
+    padding: 1.25em 0;
+}
+
+#primary,
+#secondary {
+    padding: 0 1.25em;
+}
+
+@media (min-width: 800px) {
+    #primary {
+        width: 75%;
+        float: left;
+    }
+    #secondary {
+        width: 25%;
+        float: right;
+    }
+}
