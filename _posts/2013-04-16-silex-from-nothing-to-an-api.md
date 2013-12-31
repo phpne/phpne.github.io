@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Silex: from nothing, to an API 
+title: Silex, from nothing, to an API 
 date: 2013-04-16
 ---
 

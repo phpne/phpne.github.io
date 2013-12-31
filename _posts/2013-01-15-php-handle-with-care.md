@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP: Handle with Care
+title: PHP, Handle with Care
 date: 2013-01-15
 ---
 

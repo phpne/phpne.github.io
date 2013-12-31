@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PPI: the PHP meta framework!
+title: PPI, the PHP meta framework!
 date: 2013-06-18
 ---
 
