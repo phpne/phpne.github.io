@@ -25,7 +25,7 @@ The topics covered will include:
 
 The talk is designed to be a gentle introduction to those who are interested in learning more about web services and how to implement them using PHP, with real world examples. The idea is to provide some grounding information and to inspire further reading.
 
-[1]: http://www.pne.org./
+[1]: http://www.pne.org/
 [2]: http://www.twitter.com/PostOfficeNE1
 [3]: http://groups.google.com/group/php-north-east?pli=1
 [4]: http://twitter.com/#!/phpne
