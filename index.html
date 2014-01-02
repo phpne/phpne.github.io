@@ -2,4 +2,20 @@
 layout: default
 title: PHP North East
 ---
-<!-- Feed here. -->
+          <div class="hfeed">
+{% for post in site.posts limit:5 %}
+            <article class="hentry">
+              <header class="entry-header">
+                <h1 class="entry-title">
+                  <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+                </h1>
+              </header>
+              <footer class="entry-meta">
+                <p>Posted on <time class="published" datetime="{{ post.date|date_to_xmlschema }}" pubdate>{{ post.date|date_to_string }}</time></p>
+              </footer>
+              <div class="entry-summary">
+                {{ post.excerpt }}
+              </div>
+            </article>
+{% endfor %}
+          </div>

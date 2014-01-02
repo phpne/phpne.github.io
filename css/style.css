@@ -142,6 +142,38 @@ a img {
     padding: 0 1.25em;
 }
 
+#secondary {
+    font-size: 87.5%;
+    line-height: 1.71428571;
+}
+
+.hfeed .hentry {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 0.1em solid #e7e7e7;
+}
+.hfeed .entry-title {
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+}
+.hfeed .entry-title a {
+    color: #111;
+}
+.hfeed .entry-title a:hover,
+.hfeed .entry-title a:active,
+.hfeed .entry-title a:focus {
+    color: #ff4b33;
+}
+
+.entry-meta {
+    color: #999;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 81.25%;
+}
+.entry-summary > p:last-child {
+    margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
     #primary {
         width: 75%;
