@@ -1,0 +1,6 @@
+{% if page.date < site.time %}
+            <aside class="event-register">
+              <p><strong>The event is free and open to all.</strong> If you would like to attend this event make sure you register on our Eventbrite page by clicking the link below.</p>
+              <a class="btn" href="http://{{ page.eventbrite_slug }}.eventbrite.com/" rel="external">Click to register now</a>
+            </aside>
+{% endif %}

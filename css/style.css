@@ -137,19 +137,14 @@ a img {
     padding: 1.25em 0;
 }
 
-#primary,
-#secondary {
-    padding: 0 1.25em;
-}
-
 #secondary {
     font-size: 87.5%;
     line-height: 1.71428571;
 }
 
 .hfeed .hentry {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+    padding-bottom: 1.4375em;
     border-bottom: 0.1em solid #e7e7e7;
 }
 .hfeed .entry-title {
@@ -174,7 +169,46 @@ a img {
     margin-bottom: 0;
 }
 
+.event-register,
+.event-sponsor {
+    margin-top: 1.5em;
+    padding-top: 1.4375em;
+    border-top: 0.1em solid #e7e7e7;
+}
+
+.btn {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0.1em 0.1em rgba(0,0,0,0.25);
+    background-color: #9fc355;
+    display: inline-block;
+    margin: 0;
+    padding: 0.5em 1em;
+    border: 0.1em solid transparent;
+    border-radius: 0.25em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff4b33;
+}
+.btn:active,
+.btn:focus {
+    color: rgba(255,255,255,0.8);
+    text-shadow: 0 -0.1em 0 rgba(0,0,0,0.25);
+    box-shadow: inset 0 0.25em 0.5em rgba(0,0,0,0.25);
+}
+
 @media (min-width: 768px) {
+    #primary,
+    #secondary {
+        padding: 0 1.25em;
+    }
     #primary {
         width: 75%;
         float: left;
