@@ -51,6 +51,11 @@ p {
     margin-bottom: 0.75em;
 }
 
+b,
+strong {
+    font-weight: bold;
+}
+
 a {
     color: #9fc355;
     text-decoration: none;
@@ -122,14 +127,37 @@ a img {
     outline: none;
 }
 
-.site-footer {
+.site-footer p {
     font-size: 87.5%;
-    border-top: 0.2em solid #9fc355;
-    padding-top: 1.42857143em;
-}
-.site-footer .copyright {
-    color: #666;
+    line-height: 1.71428571;
     margin-bottom: 0;
+}
+
+.site-footer .row {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 1.5em;
+    overflow: auto;
+}
+.site-footer .row h3 {
+    font-size: 87.5%;
+}
+
+.site-footer .event-location,
+.site-footer .after-the-event {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.site-footer .event-location {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 0.1em solid #ddd;
+}
+
+.site-footer .copyright {
+    color: #999;
+    text-align: center;
 }
 
 #main {
@@ -140,6 +168,9 @@ a img {
 #secondary {
     font-size: 87.5%;
     line-height: 1.71428571;
+    margin-top: 1.25em;
+    padding-top: 1.25em;
+    border-top: 0.5em solid #eee;
 }
 
 .hfeed .hentry {
@@ -241,6 +272,11 @@ a img {
     color: #999;
 }
 
+#location-map {
+    height: 20em;
+    margin: 0 -1.25em 1.5em;
+}
+
 @media (min-width: 768px) {
     #primary,
     #secondary {
@@ -252,7 +288,30 @@ a img {
     }
     #secondary {
         width: 25%;
+        margin-top: 0;
+        padding-top: 0;
         float: right;
+        border-top: none;
+    }
+    
+    .site-footer .event-location,
+    .site-footer .after-the-event {
+        width: 50%;
+        padding: 0 1.25em;
+    }
+    .site-footer .event-location {
+        text-align: right;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        float: left;
+        border-bottom: none;
+    }
+    .site-footer .after-the-event {
+        text-align: left;
+        padding-right: 0;
+        float: right;
+        border-left: 0.1em solid #eee;
     }
 }
 

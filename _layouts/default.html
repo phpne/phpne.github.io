@@ -50,10 +50,22 @@
         </aside>
       </div>
       <footer class="site-footer" role="contentinfo">
+        <div id="location-map"></div>
+        <div class="row">
+          <div class="event-location">
+            <h3>Event location</h3>
+            <p>We meet on the third Tuesday of the month at Clavering House, Clavering Place, Newcastle upon Tyne, NE1 3NG.</p>
+          </div>
+          <div class="after-the-event">
+            <h3>After the event</h3>
+            <p>After the event, many make their way to the bar at The Telegraph (just across the road), for further discussions and networking.</p>
+          </div>
+        </div>
         <p class="copyright">&copy; {{ site.time|date:'%Y' }} PHP North East. All rights reserved.</p>
       </footer>
     </div>
-    <script type="text/javascript" src="//code.jquery.com/jquery.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key={{ site.google_api_key }}&amp;sensor=false"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
