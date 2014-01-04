@@ -4,16 +4,16 @@ title: PHP North East
 ---
           <div class="hfeed">
 {% for post in paginator.posts %}
-            <article class="hentry">
+            <article class="hentry" itemscope itemtype="http://schema.org/Article">
               <header class="entry-header">
-                <h1 class="entry-title">
-                  <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+                <h1 class="entry-title" itemprop="name">
+                  <a href="{{ post.url }}" rel="bookmark" itemprop="url">{{ post.title }}</a>
                 </h1>
               </header>
               <footer class="entry-meta">
-                <p>Posted on <time class="published" datetime="{{ post.date|date_to_xmlschema }}" pubdate>{{ post.date|date_to_string }}</time></p>
+                <p>Posted on <time class="published updated" datetime="{{ post.date|date_to_xmlschema }}" itemprop="dateCreated" pubdate>{{ post.date|date_to_string }}</time></p>
               </footer>
-              <div class="entry-summary">
+              <div class="entry-summary" itemprop="description">
                 {{ post.excerpt }}
               </div>
             </article>
