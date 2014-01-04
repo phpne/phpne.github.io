@@ -93,11 +93,11 @@ a img {
 
 .primary-navigation {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 81.25%;
-    line-height: 2.76923077;
+    font-size: 87.5%;
+    line-height: 2.85714286;
     background-color: #9fc355;
-    margin-bottom: 0.769230769em;
-    border-radius: 0.307692308em;
+    margin-bottom: 0.571428571em;
+    border-radius: 0.285714286em;
     overflow: auto;
 }
 .primary-navigation ul {
@@ -202,6 +202,43 @@ a img {
     color: rgba(255,255,255,0.8);
     text-shadow: 0 -0.1em 0 rgba(0,0,0,0.25);
     box-shadow: inset 0 0.25em 0.5em rgba(0,0,0,0.25);
+}
+
+.pager {
+    overflow: auto;
+}
+.pager .previous,
+.pager .next {
+    display: inline;
+}
+.pager .previous a,
+.pager .previous span,
+.pager .next a,
+.pager .next span {
+    background-color: #fff;
+    display: inline-block;
+    padding: 5px 14px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.pager .previous a,
+.pager .previous span {
+    float: left;
+}
+.pager .previous a:before,
+.pager .previous span:before {
+    content: '\2190\00a0';
+}
+.pager .next a,
+.pager .next span {
+    float: right;
+}
+.pager .next a:after,
+.pager .next span:after {
+    content: '\00a0\2192';
+}
+.pager .disabled span {
+    color: #999;
 }
 
 @media (min-width: 768px) {
