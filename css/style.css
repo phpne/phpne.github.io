@@ -105,19 +105,15 @@ a img {
     border-radius: 0.285714286em;
     overflow: auto;
 }
-.primary-navigation ul {
-    padding-left: 0.75em;
-}
 .primary-navigation li {
     display: block;
-    float: left;
 }
 .primary-navigation a {
     color: #fff;
     text-decoration: none;
     text-shadow: 0 0.1em 0.1em rgba(0,0,0,0.25);
     display: block;
-    padding: 0 0.75em;
+    padding-left: 1em;
 }
 .primary-navigation a:hover,
 .primary-navigation a:active,
@@ -275,6 +271,18 @@ a img {
 #location-map {
     height: 20em;
     margin: 0 -1.25em 1.5em;
+}
+
+@media (min-width: 480px) {
+    .primary-navigation ul {
+        padding-left: 0.75em;
+    }
+    .primary-navigation li {
+        float: left;
+    }
+    .primary-navigation a {
+        padding: 0 0.75em;
+    }
 }
 
 @media (min-width: 768px) {
