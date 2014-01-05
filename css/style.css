@@ -108,10 +108,13 @@ a img {
 .primary-navigation li {
     display: block;
 }
+.primary-navigation li.conference {
+    background-color: #267246;
+}
 .primary-navigation a {
     color: #fff;
     text-decoration: none;
-    text-shadow: 0 0.1em 0.1em rgba(0,0,0,0.25);
+    text-shadow: 0 0.1em 0.1em rgba(0,0,0,0.5);
     display: block;
     padding-left: 1em;
 }
@@ -282,7 +285,7 @@ a img {
     color: #999;
 }
 
-.conference {
+.*nce {
     overflow: auto;
 }
 .conference .logo {
@@ -299,10 +302,13 @@ a img {
 
 @media (min-width: 480px) {
     .primary-navigation ul {
-        padding-left: 0.75em;
+        padding: 0 0.75em;
     }
     .primary-navigation li {
         float: left;
+    }
+    .primary-navigation li.conference {
+        float: right;
     }
     .primary-navigation a {
         padding: 0 0.75em;
