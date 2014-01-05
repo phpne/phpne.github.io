@@ -1,0 +1,10 @@
+{% if page.twitter_card %}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@phpne" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+{% if meta_description %}
+    <meta name="twitter:description" content="{{ meta_description }}" />
+{% endif %}
+    <meta name="twitter:image:src" content="{% if page.image %}{{ page.image }}{% else %}{{ root }}/img/logo.png{% endif %}" />
+    <meta name="twitter:domain" content="phpne.org.uk" />
+{% endif %}
