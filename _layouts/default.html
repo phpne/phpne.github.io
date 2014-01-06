@@ -1,5 +1,85 @@
-{% include header.html %}
+{% capture root %}http://{{ site.host }}{% if site.port != '80' %}:{{ site.port }}{% endif %}{% endcapture %}
+<!DOCTYPE html>
+<html lang="en-GB" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }} &middot; PHPNE: The PHP User Group for the North East of England</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{% if meta_description %}
+    <meta name="description" content="{{ meta_description }}" />
+{% endif %}
+{% include open-graph.html %}
+{% include twitter-card.html %}
+    <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+{% include analytics.html %}
+    <div class="container wrapper">
+      <header class="site-header" role="banner">
+        <a class="brand" href="/" rel="home">PHP North East</a>
+      </header>
+      <nav class="primary-navigation" role="navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-php-north-east/">About</a></li>
+          <li><a href="http://twitter.com/phpne" rel="external">Twitter</a></li>
+          <li><a href="http://groups.google.com/group/php-north-east" rel="external">Discussions</a></li>
+          <li class="conference"><a href="http://conference.phpne.org.uk/" rel="external">Conference</a></li>
+        </ul>
+      </nav>
+      <div id="main">
+        <section id="primary" role="main">
 
 {{ content }}
 
-{% include footer.html %}
+        </section>
+        <aside id="secondary" role="complementary">
+          <article class="sponsors">
+            <h2>Sponsors</h2>
+            <ul class="sponsor-list">
+              <li>
+                <a class="sponsor sharpe-recruitment" href="http://www.sharperecruitment.co.uk/" rel="external">Sharpe Recruitment</a>
+              </li>
+              <li>
+                <a class="sponsor irving-creative" href="http://www.irvingcreative.com/" rel="external">Irving Creative</a>
+              </li>
+              <li>
+                <a class="sponsor clavering-house" href="http://www.newcastlebusinessvillage.com/newcastle-city-centre/" rel="external">Clavering House</a>
+              </li>
+            </ul>
+          </article>
+          <article class="conference">
+            <h2>Conference</h2>
+            <a href="http://conference.phpne.org.uk/" rel="external">
+              <img src="/img/conference-logo.png" alt="PHP NE Conference logo" class="logo" />
+            </a>
+            <p>The second annual PHP North East Conference will be held on 18 March 2014 at the stylish Tyneside Cinema in Newcastle upon Tyne.</p>
+          </article>
+        </aside>
+      </div>
+      <footer class="site-footer" role="contentinfo">
+        <div id="location-map"></div>
+        <div class="row">
+          <div class="event-location">
+            <h3>Event location</h3>
+            <p>We meet on the third Tuesday of the month at Clavering House, Clavering Place, Newcastle upon Tyne, NE1 3NG.</p>
+          </div>
+          <div class="after-the-event">
+            <h3>After the event</h3>
+            <p>After the event, many make their way to the bar at The Telegraph (just across the road), for further discussions and networking.</p>
+          </div>
+        </div>
+        <p class="copyright">&copy; {{ site.time|date:'%Y' }} PHP North East. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key={{ site.google_api_key }}&amp;sensor=false"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

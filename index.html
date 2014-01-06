@@ -2,11 +2,32 @@
 layout: default
 title: PHP North East
 ---
-
-<p>PHP North East (PHPNE) is a PHP User Group covering the North East of England, UK.</p>
-
-<p>We meet every 3rd Tuesday of the month in Newcastle, at around 6pm. Our meetings usually consist of an informal presentation, on the varying subjects surrounding PHP, then we make our way to a local bar for further discussions and socialising.</p>
-
-<p>Attendance to our User Group meetings will always be free, and everyone is welcome.</p>
-
-<p>If you would like to get involved, you're more than welcome to come along to a meeting and/or participate in discussions in our <a href="http://groups.google.com/group/php-north-east">Google Group</a>.</p>
+          <div class="hfeed">
+{% for post in paginator.posts %}
+            <article class="hentry" itemscope itemtype="http://schema.org/Article">
+              <header class="entry-header">
+                <h1 class="entry-title" itemprop="name">
+                  <a href="{{ post.url }}" rel="bookmark" itemprop="url">{{ post.title }}</a>
+                </h1>
+              </header>
+              <footer class="entry-meta">
+                <p>Posted on <time class="published updated" datetime="{{ post.date|date_to_xmlschema }}" itemprop="dateCreated" pubdate>{{ post.date|date_to_string }}</time></p>
+              </footer>
+              <div class="entry-summary" itemprop="description">
+                {{ post.excerpt }}
+              </div>
+            </article>
+{% endfor %}
+          </div>
+          <ul class="pager">
+{% if paginator.previous_page %}
+              <li class="previous"><a href="{{ paginator.previous_page_path }}">Previous</a></li>
+{% else %}
+              <li class="previous disabled"><span class="previous">Previous</span></li>
+{% endif %}
+{% if paginator.next_page %}
+              <li class="next"><a href="{{ paginator.next_page_path }}">Next</a></li>
+{% else %}
+              <li class="next disabled"><span>Next</span></li>
+{% endif %}
+          </ul>

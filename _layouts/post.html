@@ -1,9 +1,18 @@
-{% include header.html %}
-
-{{ content }}
-
-<p>Thanks to the generous sponsorship of Laura Sharpe of <a href="http://sharperecruitment.co.uk/">Sharpe Recruitment</a>, there will once again be a stack of pizzas for you to enjoy before the talk.</p>
-<p>The event is free and open to all, but please sign up online so that we have know how much pizza we need to order. Feedback, suggestions and ideas for future topics are welcome on our <a href="http://groups.google.com/group/php-north-east">Google Group</a>.</p>
-<p>Please promote this event via Twitter or your own website to help us spread the word.</p>
-
-{% include footer.html %}
+---
+layout: default
+open_graph_type: article
+twitter_card: true
+---
+          <article class="hentry" itemscope itemtype="http://schema.org/Article">
+            <header class="page-header">
+              <h1 class="page-title" itemprop="name">{{ page.title }}<h1>
+            </header>
+            <footer class="entry-meta">
+              <p>Posted <time class="updated" datetime="{{ page.date|date_to_xmlschema }}" itemprop="dateCreated" pubdate>{{ page.date|date_to_string }}</time></p>
+            </footer>
+            <div class="entry-content" itemprop="articleBody">
+              {{ content }}
+            </div>
+{% include event-register.html %}
+{% include event-sponsor.html %}
+          </article>
