@@ -296,6 +296,10 @@ a img {
     margin: 0 auto 1em;
 }
 
+#disqus_thread {
+    margin-top: 1em;
+}
+
 #location-map {
     height: 19.5em;
     margin: 0 -1.25em 1.5em;
