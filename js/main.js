@@ -1,8 +1,17 @@
 (function($) {
     // open external links in a new tab/window
-    $('a[rel^="external"]').on('click', function(e) {
-        e.preventDefault();
-        window.open(this.href);
+    $('a:not([href=""])').each(function()
+    {
+        if($(this).attr("href")) {
+            if ((this.hostname !== location.hostname) && (($(this).attr("href").substr(0, 7) == 'http://') || ($(this).attr("href").substr(0, 8) == 'https://')))
+            {
+                $(this).on("click", function()
+                {
+                    window.open($(this).attr("href"));
+                    return false;
+                });
+            }
+        }
     });
     
     // initialize Google Map
