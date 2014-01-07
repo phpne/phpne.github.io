@@ -2,9 +2,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@phpne" />
     <meta name="twitter:title" content="{{ page.title }}" />
-    {% if meta_description %}
-    <meta name="twitter:description" content="{{ meta_description }}" />
-    {% endif %}
-    <meta name="twitter:image:src" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url }}/img/logo.png{% endif %}" />
+    <meta name="twitter:description" content="{{ page.excerpt|strip_html }}" />
+    <meta name="twitter:image:src" content="{{ site.url }}/img/logo.png" />
     <meta name="twitter:domain" content="phpne.org.uk" />
 {% endif %}

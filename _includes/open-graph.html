@@ -3,6 +3,4 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:type" content="{% if page.open_graph_type %}{{ page.open_graph_type }}{% else %}website{% endif %}" />
     <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url }}/img/logo.png{% endif %}" />
-{% if meta_description %}
-    <meta property="og:description" content="{{ meta_description }}" />
-{% endif %}
+    <meta property="og:description" content="{{ page.excerpt|strip_html }}" />
