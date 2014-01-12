@@ -1,6 +1,7 @@
-{% if page.date > site.time %}
-            <aside class="event-register">
-              <p><strong>The event is free and open to all.</strong> If you would like to attend this event make sure you register on our Eventbrite page by clicking the link below.</p>
-              <a class="btn" href="http://{{ page.eventbrite_slug }}.eventbrite.com/" rel="external">Click to register now</a>
-            </aside>
+{% if page.date > site.time and page.eventbrite_id %}
+    <aside class="event-register">
+        <div style="width:100%; text-align:left;" >
+            <iframe  src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite_id }}&ref=etckt&v=2" frameborder="0" height="247" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+        </div>
+    </aside>
 {% endif %}
