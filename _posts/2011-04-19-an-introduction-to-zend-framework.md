@@ -8,7 +8,7 @@ The third PHP North-East community meeting, taking place in the Cinema Room in t
 
 As well as friendly chat with fellow PHP enthusiasts and the hope for yet more nibbles courtesy of that nice chap, [Anthony Sterling](http://twitter.com/#!/AnthonySterling), this months event features the following talk:
 
-*An Introduction to Zend Framework* - [Jamie Hurst](http://twitter.com/#!/JamieFDHurst)
+**An Introduction to Zend Framework** - [Jamie Hurst](http://twitter.com/#!/JamieFDHurst)
 
 Many PHP programmers have already started making use of the features and customisation abilities of model-view-controller frameworks. These frameworks easily allow code to be re-used by separating the business logic from the user interface, but they can be difficult to start using when you're used to working in linear pages, especially at first. The Zend Framework is one such MVC framework, and offers a lot of fantastic features for use in PHP projects, such as view and content abstraction, loose database coupling with model objects, simple caching, security and the ability to customise and extend every aspect of the framework itself.
 

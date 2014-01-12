@@ -16,6 +16,7 @@ Git is an immensely popular version control tool that aims to make risk cheaper.
 This talk will start by giving an overview of the basic use of Git to manage a PHP project, working as an individual or small team. It will look at the concept of branching to manage feature development and a tried-and-tested method of branching structure that we use ourselves at happiest.
 
 The topics of the talk will include:
+
  - Initialising your repository
  - The small handful of commands you need in your day-to-day coding
  - Branching and merging
