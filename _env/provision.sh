@@ -14,7 +14,6 @@ cat > /etc/init/jekyll-server.conf <<SERVICE
 start on started network
 stop on stopping network
 respawn
-respawn limit 5 30
 env USER=vagrant
 env GROUP=vagrant
 env NAME=jekyll-server
