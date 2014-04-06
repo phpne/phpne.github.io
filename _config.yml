@@ -1,5 +1,6 @@
 url: http://phpne.org.uk
 google_analytics_id: UA-46863902-1
 google_api_key: AIzaSyDnkQrvUL1pFX9pEYnptILZ4PfWoqegMKQ
+markdown: kramdown
 paginate: 10
 timezone: Europe/London
