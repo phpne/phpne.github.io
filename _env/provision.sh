@@ -3,6 +3,7 @@ echo 'if [ -d /vagrant ]; then cd /vagrant; fi' >> /home/vagrant/.bashrc
 apt-get -qq -y update
 apt-get -qq -y install ruby1.9.3 build-essential
 gem install jekyll -v "=1.4.2" --no-rdoc --no-ri
+gem install kramdown -v "=1.3.1" --no-rdoc --no-ri
 
 # This configures an Upstart managed Jekyll
 # process which will serve the site on
