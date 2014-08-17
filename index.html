@@ -11,7 +11,7 @@ title: PHP North East
                 </h1>
               </header>
               <div class="entry-summary" itemprop="description">
-                <p><strong>Event Date:</strong> <time datetime="{{ page.date|date_to_xmlschema }}" itemprop="startDate">{{ page.date|date_to_string }}</time></p>
+                <p><strong>Event Date:</strong> <time datetime="{{ post.date|date_to_xmlschema }}" itemprop="startDate">{{ post.date|date_to_string }}</time></p>
                 <div itemprop="description">
                   {{ post.excerpt }}
                 </div>
