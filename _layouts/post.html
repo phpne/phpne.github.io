@@ -3,24 +3,21 @@ layout: default
 open_graph_type: article
 twitter_card: true
 ---
-          <article class="hentry" itemscope itemtype="http://schema.org/Article">
+          <article class="hentry" itemscope itemtype="http://schema.org/Event">
             <header class="page-header">
               <h1 class="page-title" itemprop="name">{{ page.title }}<h1>
             </header>
-            <footer class="entry-meta">
-              <p>Posted <time class="updated" datetime="{{ page.date|date_to_xmlschema }}" itemprop="dateCreated" pubdate>{{ page.date|date_to_string }}</time></p>
-            </footer>
             <div class="entry-content" itemprop="articleBody">
-              {{ content }}
+              <p><strong>Event Date:</strong> <time datetime="{{ page.date|date_to_xmlschema }}" itemprop="startDate" pubdate>{{ page.date|date_to_string }}</time></p>
+              <div itemprop="description">
+                {{ content }}
+              </div>
             </div>
             {% include event-register.html %}
             {% include event-sponsor.html %}
           </article>
-          
           <div id="disqus_thread"></div>
-          
           <script type="text/javascript">
-            
             var disqus_shortname = 'php-north-east';
             var disqus_identifier = '{{ page.id | escape }}';
             var disqus_title = '{{ page.title | escape }}';
