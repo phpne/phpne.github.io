@@ -58,6 +58,24 @@ strong {
     font-weight: bold;
 }
 
+ol,
+ul {
+    margin-bottom: 0.75em;
+    padding-left: 1.5em;
+}
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+    margin-bottom: 0;
+}
+ol li {
+    list-style: decimal;
+}
+ul li {
+    list-style: disc;
+}
+
 a {
     color: #9fc355;
     text-decoration: none;
@@ -109,8 +127,13 @@ a img {
     border-radius: 0.285714286em;
     overflow: auto;
 }
+.primary-navigation ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
 .primary-navigation li {
     display: block;
+    list-style: none;
 }
 .primary-navigation li.conference {
     background-color: #267246;
