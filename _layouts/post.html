@@ -8,7 +8,7 @@ twitter_card: true
               <h1 class="page-title" itemprop="name">{{ page.title }}<h1>
             </header>
             <div class="entry-content" itemprop="articleBody">
-              <p><strong>Event Date:</strong> <time datetime="{{ page.date|date_to_xmlschema }}" itemprop="startDate" pubdate>{{ page.date|date_to_string }}</time></p>
+              <p><strong>Event Date:</strong> <time datetime="{{ page.date|date_to_xmlschema }}" itemprop="startDate">{{ page.date|date_to_string }}</time></p>
               <div itemprop="description">
                 {{ content }}
               </div>
