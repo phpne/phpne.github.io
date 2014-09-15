@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Silverstripe &amp; Debugging with UNIX Tools"
+title: "Silverstripe &amp; What’s New in Laravel 5"
 date: 2014-09-16
 eventbrite_id: 13021137573
 ---
-We are pleased to announce the Septmeber 2014 event for PHP North East. We have two talks this month: Silverstripe and Debugging like a pro with UNIX tools.
+We are pleased to announce the September 2014 event for PHP North East. We have two talks this month: Silverstripe and What’s New in Laravel <del>4.3</del> <ins>5</ins>.
 
 The event will take place at the Campus North, Sunco House, 5 Carliol Square, Newcastle Upon Tyne, NE1 6UF (location map at bottom of [Ignite](http://ignite100.com/#contact) site). Thanks to [Campus North](http://campusnorth.co.uk/) for their sponsorship of a free venue and pre-event drinks.
 
@@ -18,8 +18,8 @@ Please promote this event via Twitter or your own website to help us spread the 
 
 Dylan is an immigrant from New Zealand bringing not only himself but also his knowledge of a popular framework/CMS from his native country called SilverStripe. In his talk entitled “An Introduction to SilverStripe” he will be exploring the many uses and features as well as a quick rundown of how to get started.
 
-## Debugging like a pro with UNIX tools by Sam Lambert
+## What’s New in Laravel <del>4.3</del> <ins>5</ins> by Martin Bean
 
-When applications go wrong and don’t do what they are supposed to, most people normally just check the server logs and failing that reboot the server. There is however another way… and this month Sam’s talk is going teach us with his talk “Debugging like a Pro with UNIX tools”.
+Laravel 5 (formerly known as Laravel 4.3) is coming in November with some fundamental changes. So what are they? Martin Bean will walk us through them.
 
 After the event, we will go to the pub round the corner for some informal discussions and some refreshing beverages.

@@ -76,6 +76,13 @@ ul li {
     list-style: disc;
 }
 
+del {
+    text-decoration: line-through;
+}
+ins {
+    text-decoration: none;
+}
+
 a {
     color: #9fc355;
     text-decoration: none;
