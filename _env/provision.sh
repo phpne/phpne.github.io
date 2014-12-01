@@ -15,6 +15,7 @@ cat > /etc/init/jekyll-server.conf <<SERVICE
 start on started network
 stop on stopping network
 respawn
+env LC_ALL="en_US.UTF-8"
 env USER=vagrant
 env GROUP=vagrant
 env NAME=jekyll-server
