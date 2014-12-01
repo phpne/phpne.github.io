@@ -6,7 +6,7 @@ date: 2015-01-20
 
 We are pleased to announce the first PHP North East talk of 2015, "RabbitMQ: I show you how deep the rabbit hole goes" by [Anthony Sterling][1].
 
-Anthony is a Software Engineer, and Technical Director at [Drummond Central][2] - a marketing, creative, and digtal agency based in Newcastle upon Tyne.
+Anthony is a Software Engineer, and Technical Director at [Drummond Central][2] - a marketing, creative, and digital agency based in Newcastle upon Tyne.
 
 ## RabbitMQ: I show you how deep the rabbit hole goes
 
