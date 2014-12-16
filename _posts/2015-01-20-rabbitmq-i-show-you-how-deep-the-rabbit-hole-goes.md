@@ -2,6 +2,7 @@
 layout: post
 title: "RabbitMQ: I show you how deep the rabbit hole goes"
 date: 2015-01-20
+eventbrite_id: 14956396986
 ---
 
 We are pleased to announce the first PHP North East talk of 2015, "RabbitMQ: I show you how deep the rabbit hole goes" by [Anthony Sterling][1].
