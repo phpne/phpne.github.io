@@ -2,6 +2,7 @@
 layout: post
 title: "Neo4j: An introduction"
 date: 2015-03-17
+eventbrite_id: 16104478930
 ---
 
 We are pleased to announce the PHP North East talk for March 2015, “Neo4j: An introduction” by Chris Kemper.
