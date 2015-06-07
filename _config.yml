@@ -4,3 +4,4 @@ google_api_key: AIzaSyDnkQrvUL1pFX9pEYnptILZ4PfWoqegMKQ
 markdown: kramdown
 paginate: 10
 timezone: Europe/London
+exclude: ["Vagrantfile", "CNAME"]
