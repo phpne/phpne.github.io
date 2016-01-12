@@ -22,12 +22,12 @@ In this talk Andy will be looking at how this theory can be applied to computer 
 Andy Brown is a Senior Software Developer for Performance Horizon.
 A graduate of Sunderland University with double degrees in computing, his notable interests include science, travel and distributed consensus systems.
  
-## What’s New in Laravel Since v5 by [Martin Bean][4]
+## What’s New in Laravel Since 5.0 by [Martin Bean][4]
  
-A review of the changes to Laravel in versions 5.1 and 5.2
+Martin’s back to walk us through what’s changed in Laravel since his last talk, _[What’s New in Laravel 5][7]_.
  
 Martin Bean recently joined Blinkio as senior developer of The Law Superstore after a long period freelancing.
-He is also the author of [_Laravel 5 Essentials_][6].
+He is also the author of _[Laravel 5 Essentials][6]_.
 
 ## Who the %*#$ wrote this?! by [Andrew Willis][5]
 
@@ -45,3 +45,4 @@ Andrew currently work remotely for a company called Netsells in York and also ma
 [4]: https://twitter.com/martinbean
 [5]: https://twitter.com/ilovefluffy
 [6]: https://www.packtpub.com/web-development/laravel-5-essentials
+[7]: http://phpne.org.uk/2014/09/16/silverstripe-and-whats-new-in-laravel-5.html
