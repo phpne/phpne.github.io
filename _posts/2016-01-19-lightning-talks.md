@@ -39,6 +39,10 @@ How can you prevent yourself from becoming ‘That Guy’ in the future?
 
 Andrew currently work remotely for a company called Netsells in York and also maintain the PHP League’s Fractal package along with Jason Lewis.
 
+# State of Play for North East Open Data by [James Rutherford][8]
+
+There are some exciting things happening and opportunity for devs to shape and get involved.
+
 [1]: http://sharperecruitment.co.uk/
 [2]: http://ignite100.com/
 [3]: http://groups.google.com/group/php-north-east
@@ -46,3 +50,4 @@ Andrew currently work remotely for a company called Netsells in York and also ma
 [5]: https://twitter.com/ilovefluffy
 [6]: https://www.packtpub.com/web-development/laravel-5-essentials
 [7]: http://phpne.org.uk/2014/09/16/silverstripe-and-whats-new-in-laravel-5.html
+[8]: https://twitter.com/jtruk
