@@ -37,7 +37,7 @@ What should you do in that situation?
 Who’s really to blame for it?
 How can you prevent yourself from becoming ‘That Guy’ in the future?
 
-Andrew currently work remotely for a company called Netsells in York and also maintain the PHP League’s Fractal package along with Jason Lewis.
+Andrew currently works remotely for a company called Netsells in York and also maintain the PHP League’s Fractal package along with Jason Lewis.
 
 # State of Play for North East Open Data by [James Rutherford][8]
 
