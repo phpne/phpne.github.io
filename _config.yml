@@ -5,3 +5,12 @@ markdown: kramdown
 paginate: 10
 timezone: Europe/London
 future: true
+
+gems:
+  - jekyll-paginate
+
+exclude:
+  - CNAME
+  - LICENSE
+  - README.md
+  - Vagrantfile

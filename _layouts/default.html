@@ -19,6 +19,7 @@
   </head>
   <body>
     {% include analytics.html %}
+    {% include facebook-js-sdk.html %}
     <div class="container wrapper">
       <header class="site-header" role="banner">
         <a class="brand" href="/" rel="home">PHP North East</a>
@@ -27,8 +28,8 @@
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about-php-north-east/">About</a></li>
-          <li><a href="http://twitter.com/phpne" rel="external">Twitter</a></li>
-          <li><a href="http://groups.google.com/group/php-north-east" rel="external">Discussions</a></li>
+          <li><a href="https://twitter.com/phpne" rel="external">Twitter</a></li>
+          <li><a href="https://www.facebook.com/PHP-North-East-530355733811108/" rel="external">Facebook</a></li>
         </ul>
       </nav>
       <div id="main">
@@ -50,6 +51,11 @@
               </li>
             </ul>
           </article>
+          <div>
+            <a href="https://twitter.com/phpne" class="twitter-follow-button" data-size="large" data-lang="en" data-dnt="true" data-show-count="false">Follow @phpne</a>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <div class="fb-like" data-href="https://www.facebook.com/PHP-North-East-530355733811108/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
         </aside>
       </div>
       <footer class="site-footer" role="contentinfo">
