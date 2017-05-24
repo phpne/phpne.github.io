@@ -13,7 +13,7 @@ The event will take place at **Campus North, Carliol Square, Newcastle Upon Tyne
 The event is **free** and open to all, but please sign up online so that we have an idea of numbers for the venue and catering.
 Feedback, suggestions and ideas for future topics are welcome on [Twitter][7].
 
-## Microservices vs The Distributed Monolith by Philip Brown
+## Ruling the Hierarchy by Philip Brown
 
 Hierarchical data is a common requirement in web applications. From ecommerce product taxonomies to folder structures, storing and querying that data in an efficient manner is tricker than it might seem.
 
