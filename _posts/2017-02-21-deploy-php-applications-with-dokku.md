@@ -3,7 +3,7 @@ layout: post
 title: Deploy PHP applications with Dokku
 date: 2017-02-21
 eventbrite_id: 32044545097
-excerpt: For our first meeting of 2017, we are pleased to announce Readable Requests and Responses with RAML by Nathan Dunn.
+excerpt: For our February meeting, we are pleased to announce Deploying PHP applications with Dokku by Steve Hobbs.
 ---
 For our February meeting, we are pleased to announce **Deploying PHP applications with Dokku** by Steve Hobbs.
 With pizzas provided by [Sharpe Recruitment][2], venue provided by [Campus North][3], and additional sponsorship from [Opia][4] and [Better Brand Agency][5].
