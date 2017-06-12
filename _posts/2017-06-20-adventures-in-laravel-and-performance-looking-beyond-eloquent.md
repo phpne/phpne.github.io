@@ -3,7 +3,7 @@ layout: post
 title: "Adventures in Laravel and Performance: Looking Beyond Eloquent"
 date: 2017-06-20
 eventbrite_id: 35333801351
-excerpt: For our April meeting, we are pleased to announce Adventures in Laravel and Performance: Looking Beyond Eloquent by Jamie Hurst.
+excerpt: "For our April meeting, we are pleased to announce Adventures in Laravel and Performance: Looking Beyond Eloquent by Jamie Hurst."
 ---
 For our June meeting, we are pleased to announce **Adventures in Laravel and Performance: Looking Beyond Eloquent** by Jamie Hurst.
 With pizzas provided by [Sharpe Recruitment][2], venue provided by [Campus North][3], and additional sponsorship from [Opia][4].
