@@ -1,7 +1,5 @@
 {% if page.date > site.time and page.eventbrite_id %}
     <aside class="event-register">
-        <div style="width:100%; text-align:left;" >
-            <iframe  src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite_id }}&ref=etckt&v=2" frameborder="0" height="247" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
-        </div>
+        <iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite_id }}&amp;ref=etckt&amp;v=2" frameborder="0" height="280" width="100%" allowtransparency="true" style="display: block;"></iframe>
     </aside>
 {% endif %}
