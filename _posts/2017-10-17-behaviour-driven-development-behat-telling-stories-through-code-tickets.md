@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adventures in Laravel and Performance: Looking Beyond Eloquent"
+title: "Behaviour Driven Development & Behat: Telling Stories Through Code"
 date: 2017-10-17
 eventbrite_id: 38764857733
 excerpt: "For our October 2017 meeting, we are pleased to announce Behaviour Driven Development & Behat: Telling Stories Through Code by Matt Brunt."
