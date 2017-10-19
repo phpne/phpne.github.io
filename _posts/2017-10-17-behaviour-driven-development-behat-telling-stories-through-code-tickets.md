@@ -25,14 +25,11 @@ These techniques will help to ensure you're writing well designed and tested sof
 
 Problem Solver @vivaitltd. Organiser @phpem. Purist heart, pragmatist head. Conference Speaker. Loves BDD, RPGs & jaffa cakes.
 
-After the event, many of us will be going to the Warerooms next door, for some liquid refreshments.
+After the event, many of us will be going to the [Warerooms][7] next door, for some liquid refreshments.
 
 [2]: http://www.sharperecruitment.co.uk/
 [3]: http://campusnorth.co.uk/
 [4]: https://www.opia-sp.com/en/home
 [5]: https://www.google.co.uk/maps/place/Campus+North/@54.9729132,-1.610583,17z/data=!3m1!4b1!4m5!3m4!1s0x487e70c8214ef835:0x728e1f222751ef97!8m2!3d54.9728115!4d-1.6082737
 [6]: https://twitter.com/phpne
-[7]: https://laravel.com/docs/5.4/eloquent
-[8]: https://twitter.com/jamiefdhurst
-[9]: https://jimj.am/
-[10]: http://www.eurohostels.co.uk/newcastle/the-ware-rooms/
+[7]: http://www.eurohostels.co.uk/newcastle/the-ware-rooms/
