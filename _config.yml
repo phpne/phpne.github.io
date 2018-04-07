@@ -10,7 +10,17 @@ gems:
   - jekyll-paginate
 
 exclude:
+  - node_modules
   - CNAME
   - LICENSE
   - README.md
   - Vagrantfile
+  - gulpfile.js
+  - package-lock.json
+  - package.json
+
+future: true
+
+collections:
+  sponsors:
+    output: false

@@ -1,0 +1,15 @@
+<aside class="py-5" id="sponsors">
+  <div class="container text-center">
+    <header>
+      <h1 class="h3">Sponsors</h1>
+    </header>
+    <p>PHP North East would like to thank the following for their ongoing support.</p>
+    <ul class="list-unstyled row justify-content-center align-items-center sponsor-list">
+      {% for sponsor in site.sponsors %}
+        <li class="d-block sponsor-item sponsor-item-{{ sponsor.title|slugify }}">
+          <a href="{{ sponsor.website }}" rel="external" target="_blank" title="{{ sponsor.title }}">{{ sponsor.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</aside>
