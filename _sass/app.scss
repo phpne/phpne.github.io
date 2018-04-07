@@ -225,3 +225,28 @@ abbr[title] {
     margin-left: -7rem;
   }
 }
+
+.map {
+  background-color: $gray-400;
+  position: relative;
+
+  .container {
+    z-index: 400;
+  }
+
+  .map-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+  }
+}
+
+.gm-style {
+  .gm-style-iw {
+    @include reset-text();
+    font-size: $font-size-sm;
+  }
+}
