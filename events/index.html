@@ -1,0 +1,16 @@
+---
+active: events
+excerpt: PHP North East events.
+layout: page
+title: PHP North East events
+---
+<ul class="list-unstyled event-list">
+  {% for post in site.posts %}
+    <li>
+      <a class="d-block event-link" href="{{ post.url }}">
+        <time class="d-block float-left event-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+        <span class="event-title">{{ post.title }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

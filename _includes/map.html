@@ -1,0 +1,37 @@
+<div class="map mb-3">
+  <div class="map-canvas" id="map"></div>
+  <div class="container">
+    <div class="embed-responsive embed-responsive-21by9">
+      <div class="embed-responsive-item"></div>
+    </div>
+  </div>
+</div>
+<script>
+  function initMap() {
+    var campusNorth = new google.maps.LatLng(54.9729101, -1.6083943);
+    var map = new google.maps.Map(document.getElementById('map'), {
+      disableDefaultUI: true,
+      center: campusNorth,
+      styles: [
+        {
+          elementType: 'labels',
+          featureType: 'poi',
+          stylers: [
+            { visibility: 'off' }
+          ]
+        }
+      ],
+      zoom: 17
+    });
+    var marker = new google.maps.Marker({
+      map: map,
+      position: campusNorth,
+      title: 'Campus North'
+    });
+    var infoWindow = new google.maps.InfoWindow({
+      content: '<strong>Campus North</strong><br />Sunco House<br />5 Carliol Square<br />Newcastle Upon Tyne<br />NE1 6UF'
+    });
+    infoWindow.open(map, marker);
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_api_key }}&amp;callback=initMap"></script>

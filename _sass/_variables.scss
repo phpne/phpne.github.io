@@ -1,0 +1,26 @@
+$primary: #81c341;
+
+$primary-hue: hue($primary);
+
+$white: #fff;
+$gray-100: hsl($primary-hue, 10%, 96%);
+$gray-200: hsl($primary-hue, 10%, 88%);
+$gray-300: hsl($primary-hue, 10%, 80%);
+$gray-400: hsl($primary-hue, 10%, 72%);
+$gray-500: hsl($primary-hue, 10%, 64%);
+$gray-600: hsl($primary-hue, 10%, 56%);
+$gray-700: hsl($primary-hue, 10%, 48%);
+$gray-800: hsl($primary-hue, 10%, 40%);
+$gray-900: hsl($primary-hue, 10%, 32%);
+$black: hsl($primary-hue, 10%, 24%);
+
+$enable-shadows: true;
+$enable-transitions: false;
+
+$body-bg: hsl($primary-hue, 4%, 94%);
+$body-color: $gray-900;
+
+$font-family-base: Lato, sans-serif;
+
+$headings-font-weight: 700;
+$headings-margin-bottom: 1rem;

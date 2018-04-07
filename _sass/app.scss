@@ -1,0 +1,262 @@
+@import "_variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+abbr[title] {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.site-header {
+  border-top: 5px solid $primary;
+  border-bottom: $hr-border-width solid $hr-border-color;
+}
+
+.site-header-logo {
+  @include text-hide();
+  background: url(../img/logo-dark.png) center no-repeat;
+  background-size: contain;
+  display: block;
+  width: 155px;
+  height: 50px;
+
+  @include hover-focus-active {
+    opacity: .8;
+  }
+}
+
+.site-header-navigation {
+  .nav-link {
+    color: $body-color;
+    font-weight: bold;
+
+    @include hover-focus {
+      color: $primary;
+    }
+
+    &.active {
+      @include plain-hover-focus {
+        color: $primary;
+      }
+    }
+
+    &.disabled {
+      @include plain-hover-focus {
+        color: $body-color;
+        opacity: .3;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+.site-main {
+  flex: 1;
+}
+
+.jumbotron-home {
+  position: relative;
+  @include gradient-x($primary, adjust-hue($primary, 120%));
+
+  .jumbotron-bg {
+    background: url(../img/jumbotron-bg.jpg) bottom center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .jumbotron-home-inner {
+    color: rgba($white, .9);
+    text-shadow: 0 .1rem .1rem rgba($black, .25);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    @include media-breakpoint-up(md) {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 7.5rem;
+      padding-bottom: 7.5rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+  }
+
+  .container {
+    position: relative;
+
+    .lead,
+    .btn {
+      font-weight: 700;
+    }
+
+    .btn {
+      @include hover-focus {
+        text-shadow: none;
+      }
+    }
+  }
+
+  .jumbotron-home-logo {
+    @include text-hide;
+    background: url(../img/logo-white.png) no-repeat center;
+    background-size: 100%;
+    width: 310px;
+    height: 100px;
+  }
+}
+
+.site-footer {
+  .site-footer-bg {
+    background: $body-bg url(../img/newcastle-skyline.png) bottom center no-repeat;
+    background-size: contain;
+    height: 50px;
+  }
+
+  .site-footer-inner {
+    color: rgba($body-color, .8);
+    @include gradient-y($gray-300, $gray-200);
+  }
+
+  .social-list {
+    .fa-circle {
+      color: rgba($body-color, .6);
+    }
+
+    a {
+      @include hover-focus {
+        .fa-circle {
+          color: $body-color;
+        }
+      }
+    }
+  }
+}
+
+.page {
+  padding-top: 1.5rem;
+
+  &-header {
+    position: relative;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+
+    .page-title {
+      margin-bottom: 0;
+    }
+
+    &::after {
+      content: ' ';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 5rem;
+      border-bottom: 3px solid $hr-border-color;
+    }
+  }
+
+  &-content {
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.card-next-event {
+  max-width: 45rem;
+}
+
+.sponsor-item {
+  height: 30px;
+
+  a {
+    @include text-hide();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin: 0 .5rem;
+    width: 100%;
+    height: 30px;
+    opacity: .6;
+
+    @include hover-focus {
+      opacity: 1;
+    }
+  }
+
+  &-campus-north a {
+    background-image: url(../img/sponsors/campus-north.gif);
+    width: 172.5px;
+  }
+
+  &-karma-computing a {
+    background-image: url(../img/sponsors/karma-computing.png);
+    width: 60px;
+  }
+
+  &-opia a {
+    background-image: url(../img/sponsors/opia.gif);
+    width: 30px;
+  }
+
+  &-pearson-frank a {
+    background-image: url(../img/sponsors/pearson-frank.png);
+    width: 97px;
+  }
+
+  &-sharpe-recruitment a {
+    background-image: url(../img/sponsors/sharpe-recruitment.png);
+    width: 86px;
+  }
+}
+
+.event-list {
+  .event-link {
+    padding-left: 7rem;
+  }
+
+  .event-date {
+    color: $body-color;
+    width: 7rem;
+    margin-left: -7rem;
+  }
+}
+
+.map {
+  background-color: $gray-400;
+  position: relative;
+
+  .container {
+    z-index: 400;
+  }
+
+  .map-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+  }
+}
+
+.gm-style {
+  .gm-style-iw {
+    @include reset-text();
+    font-size: $font-size-sm;
+  }
+}

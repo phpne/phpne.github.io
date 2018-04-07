@@ -1,8 +1,6 @@
-{% if page.twitter_card %}
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@phpne" />
-    <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="{{ page.excerpt|strip_html }}" />
-    <meta name="twitter:image:src" content="{{ site.url }}/img/logo.png" />
-    <meta name="twitter:domain" content="phpne.org.uk" />
-{% endif %}
+<meta name="twitter:card" content="{{ page.twitter_card_type | default: 'summary_large_image' }}" />
+<meta name="twitter:site" content="@phpne" />
+<meta name="twitter:title" content="{{ page.twitter_card_title | default: page.title }}" />
+<meta name="twitter:description" content="{{ page.twitter_card_description | default: page.excerpt | strip_html }}" />
+<meta name="twitter:image:src" content="{{ page.twitter_card_image | default: '/img/twitter-card-large-image.jpg' | prepend: site.url }}" />
+<meta name="twitter:domain" content="phpne.org.uk" />

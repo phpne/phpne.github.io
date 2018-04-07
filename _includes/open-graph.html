@@ -1,6 +1,6 @@
-    <meta property="og:site_name" content="PHP North East" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:type" content="{% if page.open_graph_type %}{{ page.open_graph_type }}{% else %}website{% endif %}" />
-    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url }}/img/logo.png{% endif %}" />
-    <meta property="og:description" content="{{ page.excerpt|strip_html }}" />
+<meta property="og:site_name" content="PHP North East" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:title" content="{{ page.open_graph_title | default: page.title }}" />
+<meta property="og:type" content="{{ page.open_graph_type | default: 'website' }}" />
+<meta property="og:image" content="{{ page.open_graph_image | default: '/img/open-graph-image.png' | prepend: site.url }}" />
+<meta property="og:description" content="{{ page.open_graph_description | default: page.excerpt | strip_html }}" />
