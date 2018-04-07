@@ -203,9 +203,19 @@ abbr[title] {
     width: 172.5px;
   }
 
+  &-karma-computing a {
+    background-image: url(../img/sponsors/karma-computing.png);
+    width: 60px;
+  }
+
   &-opia a {
     background-image: url(../img/sponsors/opia.gif);
     width: 30px;
+  }
+
+  &-pearson-frank a {
+    background-image: url(../img/sponsors/pearson-frank.png);
+    width: 97px;
   }
 
   &-sharpe-recruitment a {
