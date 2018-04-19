@@ -41,6 +41,8 @@ Donâ€™t forget your discount cards (we should have some on the day if you didnâ€
 Share this event on Facebook and Twitter.
 We hope you can make it!
 
+* Slides: https://speakerdeck.com/rawkode/what-even-is-cloud-native-phpne-april-2018
+
 [1]: http://www.sharperecruitment.co.uk/
 [2]: http://campusnorth.co.uk/
 [3]: https://www.opia-sp.com/
