@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Zero Downtime Deployments with Codeship and AWS Elastic Beanstalk"
-date: 2018-05-15
-excerpt: "For our May meeting we are pleased to announce “Zero Downtime Deployments with Codeship and AWS Elastic Beanstalk” by Rob Walker.
+date: 2018-04-17
+excerpt: "For our May meeting we are pleased to announce “Zero Downtime Deployments with Codeship and AWS Elastic Beanstalk” by Rob Walker."
 ---
+
 For our May meeting we are pleased to announce “Zero Downtime Deployments with Codeship and AWS Elastic Beanstalk” by Rob Walker.
 Thanks to our sponsors whose financial support make our events possible:
 [Sharpe Recruitment][1] who provide the pizza,
