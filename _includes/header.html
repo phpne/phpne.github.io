@@ -3,22 +3,24 @@
     <a class="site-header-logo mb-2 mb-md-0 mx-auto mx-md-0" href="/">
       <span class="site-header-logo-text">PHP North East</span>
     </a>
-    <nav class="nav site-header-navigation">
-      <li class="nav-item">
-        <a class="nav-link{% if page.active == 'home' %} active{% endif %}" href="{% link index.html %}">
-          <span class="nav-link-text">Home</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link{% if page.active == 'about' %} active{% endif %}" href="{% link about.html %}">
-          <span class="nav-link-text">About</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link{% if page.active == 'events' %} active{% endif %}" href="{% link events/index.html %}">
-          <span class="nav-link-text">Events</span>
-        </a>
-      </li>
+    <nav class="site-header-navigation">
+      <ul class="nav justify-content-center justify-content-md-end">
+        <li class="nav-item">
+          <a class="nav-link{% if page.active == 'home' %} active{% endif %}" href="{% link index.html %}">
+            <span class="nav-link-text">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link{% if page.active == 'about' %} active{% endif %}" href="{% link about.html %}">
+            <span class="nav-link-text">About</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link{% if page.active == 'events' %} active{% endif %}" href="{% link events/index.html %}">
+            <span class="nav-link-text">Events</span>
+          </a>
+        </li>
+      </ul>
     </nav>
   </div>
 </header>
