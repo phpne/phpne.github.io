@@ -4,11 +4,12 @@
     {% include analytics.html %}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="{{ page.excerpt | strip_html }}" />
+    <meta name="theme-color" content="#77b63a" />
     {% include open-graph.html %}
     {% include twitter-card.html %}
     <title>{{ page.title | default: 'PHP North East' }}</title>
+    <link href="/favicon.ico" rel="icon" />
     <link href="https://www.googletagmanager.com" rel="dns-prefetch" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com" rel="preconnect" crossorigin="anonymous" />
     <link href="https://use.fontawesome.com" rel="preconnect" crossorigin="anonymous" />
