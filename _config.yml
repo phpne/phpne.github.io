@@ -6,7 +6,7 @@ paginate: 10
 timezone: Europe/London
 future: true
 
-gems:
+plugins:
   - jekyll-paginate
 
 exclude:
