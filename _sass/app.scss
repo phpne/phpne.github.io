@@ -219,6 +219,11 @@ abbr[title] {
     width: 30px;
   }
 
+  &-packagedby a {
+    background-image: url(../img/sponsors/packagedby.png);
+    width: 115px;
+  }
+
   &-pearson-frank a {
     background-image: url(../img/sponsors/pearson-frank.png);
     width: 97px;
