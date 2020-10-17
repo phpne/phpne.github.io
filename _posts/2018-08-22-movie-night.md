@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unit Testing Legacy Code"
+title: "Movie Night"
 date: 2018-08-22
 excerpt: "For our August meeting we are pleased to announce we're having a movie night!"
 ---

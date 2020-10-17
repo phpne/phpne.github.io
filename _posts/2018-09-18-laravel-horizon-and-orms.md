@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unit Testing Legacy Code"
+title: "Horizon by Nathan Dunn and ORM Overview by Jack Wagstaffe"
 date: 2018-09-18
 excerpt: "For our September meeting, we are pleased to announce On the Horizon by Nathan Dunn and ORM Overview by Jack Wagstaffe"
 ---
