@@ -2,7 +2,7 @@
 layout: post
 title: "How to handle code complexity"
 date: 2020-11-17
-excerpt: "We are pleased to announce the November 2020 event for PHP North East, "How to Handle Code Complexity" by Rob Waller"
+excerpt: "We are pleased to announce the November 2020 event for PHP North East, \"How to Handle Code Complexity\" by Rob Waller"
 ---
 We are pleased to announce the November 2020 event for PHP North East, "How to Handle Code Complexity" by Rob Waller. This is an online event streaming here: https://youtu.be/7qB83HW1AhM
 
