@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome Back & 10 Year Anniversary Social"
-date: 2020-11-15
+date: 2022-11-15
 excerpt: "We are delighted to announce the long-anticipated return of PHP North East. After nearly three years away"
 ---
 We are delighted to announce the long-anticipated return of PHP North East. After nearly three years away, we're returning with a social event to catch up with fellow PHP developers and celebrate PHP North East's [10-year anniversary](https://twitter.com/phpne/status/1361772774725988357). It'd be great if you could join us!
